@@ -27,9 +27,27 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-top: 20px;
 }
 .nati:hover {
   transform: scale(1.02);
+}
+
+.men img{
+  width: 300px;
+  
+}
+.twhole{
+  display: flex; 
+  justify-content: space-around;
+}
+.allman{
+  text-align: center;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button:hover {
@@ -125,4 +143,28 @@ ul {
   .img{
     width: 10px;
     height: 10px;
+  }
+  .navigationbar{
+border: 1px solid;
+border-radius: 20px;
+background-color: blue;
+
+  }
+  .navigationbar ul{
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+
+  }
+  .navigationbar ul li{
+    list-style: none;
+     border: 1px solid;
+     border-radius: 20rem;
+     width: 100px;
+     background-color: white;
+    
+
+  }
+  .navigationbar ul li a{
+    text-decoration: none;
   }
