@@ -1,0 +1,128 @@
+body {
+  /* 
+    background-image: url("./img/sanoojck-road-7992161.jpg"); */
+  background: linear-gradient(
+    rgb(175, 175, 188),
+    rgb(122, 116, 116),
+    rgb(225, 230, 235)
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+}
+.nati {
+  cursor: pointer;
+  color: white;
+  border: color(rgb(160, 28, 28) green blue);
+}
+.nati p {
+  font-size: 1rem;
+}
+h3 {
+  color: white;
+}
+
+.both {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.nati:hover {
+  transform: scale(1.02);
+}
+
+button:hover {
+  transform: translateY(-10px);
+  color: red;
+
+}
+.listed:hover {
+  transform: scale(1.02);
+  color: rgb(25, 9, 9);
+
+}
+
+
+.h1 {
+  color: rgb(241, 235, 235);
+}
+.h1 span{
+  color: rgb(103, 71, 71);
+}
+ul {
+  color: white;
+  font-size: 20px;
+}
+.h1 {
+  text-align: center;
+}
+.sec {
+  width: 300px;
+  border: 1px solid;
+  background-color: rgb(162, 147, 147);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thir1 {
+  width: 200px;
+  border: 3px solid;
+  background-color: rgb(162, 147, 147);
+  border-radius: 20px;
+  margin: 20px;
+  color: blue;
+}
+.thir2 {
+  width: 200px;
+  border: 3px solid;
+  background-color: rgb(162, 147, 147);
+  border-radius: 20px;
+  margin: 20px;
+  color: blue;
+  border-color: blue;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.for1{
+  border: 1px solid;
+  background-color: rgb(162, 147, 147);
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  }
+  .fiv1{
+    border: 1px solid;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(162, 147, 147);
+  }
+  pre{
+    font-size: 20px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  .mnb{
+    background: linear-gradient(rgb(105, 105, 232),white);
+
+  }
+  .mnb h1{
+    text-align: center;
+  }
+  h1{
+    font-size: 40px;
+    color: blue;
+    text-align: left;
+  }
+  .img{
+    width: 10px;
+    height: 10px;
+  }
