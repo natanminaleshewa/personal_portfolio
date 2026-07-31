@@ -144,12 +144,14 @@ ul {
     width: 10px;
     height: 10px;
   }
-  .navigationbar{
+  .nave{
 border: 1px solid;
 border-radius: 20px;
 background-color: blue;
 
+
   }
+  
   .navigationbar ul{
     display: flex;
     justify-content: right;
